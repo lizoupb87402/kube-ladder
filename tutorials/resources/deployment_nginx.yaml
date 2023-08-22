@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: cargo.caicloud.io/caicloud/nginx:1.9.7
+        image: nginx:latest
         ports:
         - containerPort: 80
