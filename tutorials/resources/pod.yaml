@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: cargo.caicloud.io/caicloud/nginx:1.9.3
+    image: nginx:1.9.7
     resources:
       requests:
         cpu: "0.1"
